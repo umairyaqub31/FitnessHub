@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "baseUrl": "./src/",
+      "paths": {
+        "@containers": ["containers"],
+        "@components": ["components"],
+        "@navigation": ["navigation"],
+        "@images": ["images"],
+        "@config":["config"],
+        "@redux": ["redux"]
+      }
+    },
+    "exclude": ["node_modules"]
+  }
